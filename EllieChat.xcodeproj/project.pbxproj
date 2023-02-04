@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AFDE009298F21640013DD97 /* EllieChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDE008298F21640013DD97 /* EllieChatApp.swift */; };
+		9AFDE00B298F21640013DD97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDE00A298F21640013DD97 /* ContentView.swift */; };
+		9AFDE00D298F21640013DD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDE00C298F21640013DD97 /* Assets.xcassets */; };
+		9AFDE010298F21640013DD97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDE00F298F21640013DD97 /* Preview Assets.xcassets */; };
+		9AFDE01B298F21650013DD97 /* EllieChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDE01A298F21650013DD97 /* EllieChatTests.swift */; };
+		9AFDE025298F21650013DD97 /* EllieChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDE024298F21650013DD97 /* EllieChatUITests.swift */; };
+		9AFDE027298F21650013DD97 /* EllieChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDE026298F21650013DD97 /* EllieChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AFDE017298F21650013DD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFDDFFD298F21630013DD97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFDE004298F21630013DD97;
+			remoteInfo = EllieChat;
+		};
+		9AFDE021298F21650013DD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFDDFFD298F21630013DD97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFDE004298F21630013DD97;
+			remoteInfo = EllieChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AFDE005298F21640013DD97 /* EllieChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EllieChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFDE008298F21640013DD97 /* EllieChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieChatApp.swift; sourceTree = "<group>"; };
+		9AFDE00A298F21640013DD97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AFDE00C298F21640013DD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFDE00F298F21640013DD97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AFDE011298F21640013DD97 /* EllieChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EllieChat.entitlements; sourceTree = "<group>"; };
+		9AFDE016298F21650013DD97 /* EllieChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllieChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFDE01A298F21650013DD97 /* EllieChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieChatTests.swift; sourceTree = "<group>"; };
+		9AFDE020298F21650013DD97 /* EllieChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllieChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFDE024298F21650013DD97 /* EllieChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieChatUITests.swift; sourceTree = "<group>"; };
+		9AFDE026298F21650013DD97 /* EllieChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFDE002298F21630013DD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE013298F21650013DD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE01D298F21650013DD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AFDDFFC298F21630013DD97 = {
+			isa = PBXGroup;
+			children = (
+				9AFDE007298F21640013DD97 /* EllieChat */,
+				9AFDE019298F21650013DD97 /* EllieChatTests */,
+				9AFDE023298F21650013DD97 /* EllieChatUITests */,
+				9AFDE006298F21640013DD97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFDE006298F21640013DD97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDE005298F21640013DD97 /* EllieChat.app */,
+				9AFDE016298F21650013DD97 /* EllieChatTests.xctest */,
+				9AFDE020298F21650013DD97 /* EllieChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFDE007298F21640013DD97 /* EllieChat */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDE008298F21640013DD97 /* EllieChatApp.swift */,
+				9AFDE00A298F21640013DD97 /* ContentView.swift */,
+				9AFDE00C298F21640013DD97 /* Assets.xcassets */,
+				9AFDE011298F21640013DD97 /* EllieChat.entitlements */,
+				9AFDE00E298F21640013DD97 /* Preview Content */,
+			);
+			path = EllieChat;
+			sourceTree = "<group>";
+		};
+		9AFDE00E298F21640013DD97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDE00F298F21640013DD97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AFDE019298F21650013DD97 /* EllieChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDE01A298F21650013DD97 /* EllieChatTests.swift */,
+			);
+			path = EllieChatTests;
+			sourceTree = "<group>";
+		};
+		9AFDE023298F21650013DD97 /* EllieChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDE024298F21650013DD97 /* EllieChatUITests.swift */,
+				9AFDE026298F21650013DD97 /* EllieChatUITestsLaunchTests.swift */,
+			);
+			path = EllieChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFDE004298F21630013DD97 /* EllieChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFDE02A298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChat" */;
+			buildPhases = (
+				9AFDE001298F21630013DD97 /* Sources */,
+				9AFDE002298F21630013DD97 /* Frameworks */,
+				9AFDE003298F21630013DD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EllieChat;
+			productName = EllieChat;
+			productReference = 9AFDE005298F21640013DD97 /* EllieChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AFDE015298F21650013DD97 /* EllieChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFDE02D298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChatTests" */;
+			buildPhases = (
+				9AFDE012298F21650013DD97 /* Sources */,
+				9AFDE013298F21650013DD97 /* Frameworks */,
+				9AFDE014298F21650013DD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFDE018298F21650013DD97 /* PBXTargetDependency */,
+			);
+			name = EllieChatTests;
+			productName = EllieChatTests;
+			productReference = 9AFDE016298F21650013DD97 /* EllieChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AFDE01F298F21650013DD97 /* EllieChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFDE030298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChatUITests" */;
+			buildPhases = (
+				9AFDE01C298F21650013DD97 /* Sources */,
+				9AFDE01D298F21650013DD97 /* Frameworks */,
+				9AFDE01E298F21650013DD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFDE022298F21650013DD97 /* PBXTargetDependency */,
+			);
+			name = EllieChatUITests;
+			productName = EllieChatUITests;
+			productReference = 9AFDE020298F21650013DD97 /* EllieChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFDDFFD298F21630013DD97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9AFDE004298F21630013DD97 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9AFDE015298F21650013DD97 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9AFDE004298F21630013DD97;
+					};
+					9AFDE01F298F21650013DD97 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9AFDE004298F21630013DD97;
+					};
+				};
+			};
+			buildConfigurationList = 9AFDE000298F21630013DD97 /* Build configuration list for PBXProject "EllieChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFDDFFC298F21630013DD97;
+			productRefGroup = 9AFDE006298F21640013DD97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFDE004298F21630013DD97 /* EllieChat */,
+				9AFDE015298F21650013DD97 /* EllieChatTests */,
+				9AFDE01F298F21650013DD97 /* EllieChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFDE003298F21630013DD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFDE010298F21640013DD97 /* Preview Assets.xcassets in Resources */,
+				9AFDE00D298F21640013DD97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE014298F21650013DD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE01E298F21650013DD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFDE001298F21630013DD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFDE00B298F21640013DD97 /* ContentView.swift in Sources */,
+				9AFDE009298F21640013DD97 /* EllieChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE012298F21650013DD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFDE01B298F21650013DD97 /* EllieChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFDE01C298F21650013DD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFDE027298F21650013DD97 /* EllieChatUITestsLaunchTests.swift in Sources */,
+				9AFDE025298F21650013DD97 /* EllieChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AFDE018298F21650013DD97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFDE004298F21630013DD97 /* EllieChat */;
+			targetProxy = 9AFDE017298F21650013DD97 /* PBXContainerItemProxy */;
+		};
+		9AFDE022298F21650013DD97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFDE004298F21630013DD97 /* EllieChat */;
+			targetProxy = 9AFDE021298F21650013DD97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AFDE028298F21650013DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AFDE029298F21650013DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9AFDE02B298F21650013DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EllieChat/EllieChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EllieChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9AFDE02C298F21650013DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EllieChat/EllieChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EllieChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9AFDE02E298F21650013DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EllieChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EllieChat";
+			};
+			name = Debug;
+		};
+		9AFDE02F298F21650013DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EllieChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EllieChat";
+			};
+			name = Release;
+		};
+		9AFDE031298F21650013DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EllieChat;
+			};
+			name = Debug;
+		};
+		9AFDE032298F21650013DD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EliasSoftware.EllieChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EllieChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFDE000298F21630013DD97 /* Build configuration list for PBXProject "EllieChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFDE028298F21650013DD97 /* Debug */,
+				9AFDE029298F21650013DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFDE02A298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFDE02B298F21650013DD97 /* Debug */,
+				9AFDE02C298F21650013DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFDE02D298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFDE02E298F21650013DD97 /* Debug */,
+				9AFDE02F298F21650013DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFDE030298F21650013DD97 /* Build configuration list for PBXNativeTarget "EllieChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFDE031298F21650013DD97 /* Debug */,
+				9AFDE032298F21650013DD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AFDDFFD298F21630013DD97 /* Project object */;
+}
